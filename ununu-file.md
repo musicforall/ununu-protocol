@@ -12,7 +12,7 @@ To track and store music metadata other than what is already stored automaticall
     {
         "name": "project-name",
         "liscence": "XYZ.0.1",
-        "signature": "0x369E32aed1Dc5c33C85ab20977fB645A803E4A70"
+        "signature": "0x369E32aed1Dc5c33C85ab20977fB645A803E4A70",
         "owner": "owner@ununu.io",
         "colaborators": [
             { 
@@ -32,14 +32,14 @@ To track and store music metadata other than what is already stored automaticall
                 "lat": 30.184911,
                 "long": 19.095790}],
         "bpm": 80,
-        "genre": jazz, 
+        "genre": "jazz", 
         "track-details":[
             {
-                index: 0,
-                type: "MIDI"},
+                "index": 0,
+                "type": "MIDI"},
             {
-                index: 1,
-                type: "Audio"}]
+                "index": 1,
+                "type": "Audio"}]
     }
 ```
 Name: Project Name, entered by the user. By default the name of the project forlder name.  
